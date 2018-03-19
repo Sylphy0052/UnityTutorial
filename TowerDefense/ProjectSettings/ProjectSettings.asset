@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 00000000000000000000000000000000
+  productGUID: 3317f3a76a6c54f7e80615575a36530e
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -648,7 +648,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 57fd7400-99fb-48a8-ac49-f73f29a48313
-  projectName: Tower Defence
+  projectName: TowerDefense
   organizationId: pyente
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

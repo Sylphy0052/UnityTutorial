@@ -16,16 +16,16 @@ public class CameraManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-//		RotateByKey();
-		RotateByGyro();
+		RotateByKey();
+//		RotateByGyro();
 	}
 
 	void RotateByKey() {
 		if(Input.GetKey(KeyCode.A)) {
-			this.transform.Rotate(0,-50 * Time.deltaTime,0);
+			this.transform.Rotate(0,-100 * Time.deltaTime,0);
 		}
 		if(Input.GetKey(KeyCode.D)) {
-			this.transform.Rotate(0,50 * Time.deltaTime,0);
+			this.transform.Rotate(0,100 * Time.deltaTime,0);
 		}
 	}
 
